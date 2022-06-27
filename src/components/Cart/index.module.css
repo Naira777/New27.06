@@ -1,0 +1,263 @@
+.contentDesktop {
+
+    width: 100vw;
+  
+ 
+   height: auto;
+ width: 100%;
+ margin-bottom: 120px;
+
+
+}
+
+
+.text {
+
+    font-family: 'Mardoto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+color: rgba(33, 33, 33, 0.8);
+text-align: center;
+
+}
+.textpoqr {
+ margin-top: 20px;
+    font-family: 'Mardoto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+
+color: #999999;
+padding-left: 80px;
+}
+.header {
+
+    font-family: 'Mardoto';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 35px;
+color: #212121;
+padding-left: 80px;
+
+}
+
+.mycart {
+height:275px;
+width: 320px;
+margin-top: 60px;
+
+}
+.button {
+border: none;
+    width: 200px;
+    height: 48px; 
+   
+    
+    background: #3D9A85;
+    border-radius: 4px;
+
+font-family: 'Mardoto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+color: #FFFFFF;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.link {
+  
+    text-decoration: none;
+    padding: 10px 16px 10px 16px;
+    font-family: "Mardoto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    margin-right: 8px;
+     background: #f6f6f6;
+    border-radius: 4px;
+    color: black;
+    margin-top: 30px;
+}
+.links {
+    padding-left: 80px;
+    margin-bottom: 40px;
+   
+}
+.prodcount {
+
+    font-family: 'Mardoto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+   
+    color: rgba(33, 33, 33, 0.8);
+    padding-left: 80px;
+
+}
+.boxprodcount {
+
+  
+    max-width: 1152px;
+    width:92%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.boxpro1 {
+
+min-width: 80%;
+
+}
+
+.check {
+
+height: 24.88888931274414px;
+width: 24.88888931274414px;
+margin-left: 10px;
+
+    }
+.boxcheck {
+
+align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: -80px;
+   
+}
+
+.confirmbox {
+
+  margin-left: 30px;
+    max-width: 500px;
+   
+
+
+    height: 327px;
+    min-width: 410px;
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+  width:50%;
+
+margin-top: 50px;
+
+}
+.cart {
+
+    height: 28px;
+    width: 28px;
+    margin-right: 10px;
+    
+
+
+}
+.line1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+border-bottom: 1px solid #E4E4E4;
+padding-left: 40px;
+
+}
+.boxprice {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+ 
+            max-width: 540px; 
+           margin-right: 50px;
+            height:80px;
+           margin-top:20px;
+            margin-left: -35px;
+
+}
+
+
+   
+
+.line2 { 
+    max-width: 470px; 
+    border-bottom: 1px solid #E4E4E4;
+    margin-left: 75px;
+}
+.box {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  margin-top:-20px;
+ 
+}
+
+.text1  {
+
+    
+font-family: 'Mardoto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+color: #212121;
+margin-left:45px;
+margin-right:50px;
+margin-top: 40px;
+}
+.textkanach {
+    font-family: 'Mardoto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #3D9A85;
+margin-left:45px;
+margin-top: 40px;
+
+}
+.button {
+    margin-top: 40px;
+    margin-right:50px;
+    padding: 10px 32px;
+gap: 10px;
+
+
+max-width: 160px;
+
+height: 48px;
+
+
+background: #3D9A85;
+border-radius: 4px;
+font-family: 'Mardoto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+}
+
+.content {
+
+display: flex;
+flex-direction: row;
+min-width: 940px;
+width: 88%;
+max-width: 1500px;
+}

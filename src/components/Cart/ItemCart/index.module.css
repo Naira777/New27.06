@@ -1,0 +1,188 @@
+.contentDesktop {
+
+    height: 152px;
+    max-width: 1152px;
+     min-width: 600px;
+   
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+
+border: 1px solid #EDEDED;
+margin-left: 80px;
+margin-bottom: 30px;
+
+}
+
+
+
+.header {
+
+    font-family: 'Mardoto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+     color: #212121;
+}
+.box1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic {
+    height: 120px;
+    width: 100px;
+
+    border-radius: 4px;
+    margin: 16px;
+
+}
+
+.price {
+    font-family: 'Mardoto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    //line-height: 100%;     
+    color: #999999;
+
+
+}
+.pricespanline {
+
+    text-decoration: line-through;
+}
+
+.pricespan {
+
+    font-family: 'Mardoto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    //line-height: 150%;     
+    color: #212121CC;
+    
+}
+
+.buttonqty {
+    height: 40px;
+    width: 46px;
+    border-radius: 4px;
+    color: #3D9A85;
+    border: none;
+    font-size: 22px;
+}
+.qty {
+
+font-family: 'Mardoto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #3D9A85;
+margin-left: 34px;
+margin-right: 34px;
+}
+
+
+.karmirtext {
+    font-family: 'Mardoto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;    
+    letter-spacing: 0.005em;
+    
+    color: #B00020;
+}
+.boxPrice {
+    
+}
+.priceqty {
+
+    font-family: 'Mardoto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+color: #212121;
+}
+.close {
+
+  
+
+    margin-right: 20px;
+    height: 21.33333396911621px;
+    width: 21.33333396911621px;
+
+}
+.check {
+
+    height: 21.33333396911621px;
+    width: 21.33333396911621px;
+  
+    margin-right: 20px;
+    margin-top: 72px;
+
+
+}
+.boxclose {
+  display: flex;
+    flex-direction: column;
+ 
+   
+ align-self:flex-start;
+ margin-top: 20px;
+}
+  
+.boxqtyAll {
+    position: relative;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+  
+  .boxqtyAll .tooltiptext {
+    visibility: hidden;
+
+    font-family: 'Mardoto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+      
+    color: #B00020;
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+ 
+
+    position: absolute;
+    z-index: 2;
+    bottom: 118%;
+    left: 10%;
+    margin-left: -12px;
+      width: 160px;
+    height: 33px;
+        box-shadow: 0px 4px 8px rgba(33, 33, 33, 0.1);  
+        
+     }
+  
+  
+  .boxqtyAll:hover .tooltiptext {
+    visibility: visible;
+    
+  }

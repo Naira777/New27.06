@@ -1,0 +1,71 @@
+
+
+.itembox {
+    max-width: 560px;
+    min-width: 400px;
+height: 94px;
+border: 0.5px solid #E4E4E4;
+border-radius: 4px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-bottom: 20px;
+width:95%;
+
+}
+.pic {
+    width: 64px;
+height: 78px;
+border-radius: 4px;
+margin: 8px;
+}
+.title {
+
+font-family: 'Mardoto';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 130%;
+color: #212121;
+
+}
+.titlebox {
+
+    margin-left: -40px;
+}
+
+.qty {
+    width: 8px;
+    height: 10px;
+    margin-right: 2px;
+}
+.close {
+    height: 20px;
+width: 20px;
+align-self: center;
+margin-right: 10px;
+}
+.qtybox {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.qtyboxall {
+
+   display: flex;
+    flex-direction: column;
+margin-left: 180px;
+
+
+    
+}
+.qtyboxall1 .title {
+margin-top: -5px;
+
+}
+
+
+     
